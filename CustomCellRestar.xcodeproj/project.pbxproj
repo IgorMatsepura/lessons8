@@ -12,6 +12,10 @@
 		38C2B95A20595767008CCFDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C2B95820595767008CCFDF /* Main.storyboard */; };
 		38C2B95C20595767008CCFDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C2B95B20595767008CCFDF /* Assets.xcassets */; };
 		38C2B95F20595767008CCFDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C2B95D20595767008CCFDF /* LaunchScreen.storyboard */; };
+		38C2B96B205958FF008CCFDF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C2B969205958FF008CCFDF /* TableViewCell.swift */; };
+		38C2B96C205958FF008CCFDF /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38C2B96A205958FF008CCFDF /* TableViewCell.xib */; };
+		38C2B970205970B5008CCFDF /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C2B96E205970B5008CCFDF /* DetailVC.swift */; };
+		38C2B971205970B5008CCFDF /* DetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38C2B96F205970B5008CCFDF /* DetailVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		38C2B95B20595767008CCFDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38C2B95E20595767008CCFDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38C2B96020595767008CCFDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38C2B969205958FF008CCFDF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		38C2B96A205958FF008CCFDF /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		38C2B96E205970B5008CCFDF /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		38C2B96F205970B5008CCFDF /* DetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,8 @@
 		38C2B95320595767008CCFDF /* CustomCellRestar */ = {
 			isa = PBXGroup;
 			children = (
+				38C2B96D20597033008CCFDF /* DetailVC */,
+				38C2B968205958CA008CCFDF /* View */,
 				38C2B95420595767008CCFDF /* AppDelegate.swift */,
 				38C2B95620595767008CCFDF /* ViewController.swift */,
 				38C2B95820595767008CCFDF /* Main.storyboard */,
@@ -62,6 +72,24 @@
 				38C2B96020595767008CCFDF /* Info.plist */,
 			);
 			path = CustomCellRestar;
+			sourceTree = "<group>";
+		};
+		38C2B968205958CA008CCFDF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				38C2B969205958FF008CCFDF /* TableViewCell.swift */,
+				38C2B96A205958FF008CCFDF /* TableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		38C2B96D20597033008CCFDF /* DetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				38C2B96E205970B5008CCFDF /* DetailVC.swift */,
+				38C2B96F205970B5008CCFDF /* DetailVC.xib */,
+			);
+			path = DetailVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +152,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				38C2B95F20595767008CCFDF /* LaunchScreen.storyboard in Resources */,
+				38C2B96C205958FF008CCFDF /* TableViewCell.xib in Resources */,
 				38C2B95C20595767008CCFDF /* Assets.xcassets in Resources */,
 				38C2B95A20595767008CCFDF /* Main.storyboard in Resources */,
+				38C2B971205970B5008CCFDF /* DetailVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +166,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C2B96B205958FF008CCFDF /* TableViewCell.swift in Sources */,
+				38C2B970205970B5008CCFDF /* DetailVC.swift in Sources */,
 				38C2B95720595767008CCFDF /* ViewController.swift in Sources */,
 				38C2B95520595767008CCFDF /* AppDelegate.swift in Sources */,
 			);
